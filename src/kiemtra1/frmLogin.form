@@ -32,9 +32,14 @@
               <EmptySpace pref="105" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="txtUsername" min="-2" pref="133" max="-2" attributes="0"/>
-                  <Component id="txtMatKhau" min="-2" pref="147" max="-2" attributes="0"/>
+                  <Component id="txtpassword" min="-2" pref="147" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="143" max="-2" attributes="0"/>
+              <Component id="btnlogin" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -49,9 +54,11 @@
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtMatKhau" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtpassword" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="185" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+              <Component id="btnlogin" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="126" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -66,10 +73,15 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Mat Khau"/>
+        <Property name="text" type="java.lang.String" value="password"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtMatKhau">
+    <Component class="javax.swing.JTextField" name="txtpassword">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnlogin">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jButton1"/>
+      </Properties>
     </Component>
   </SubComponents>
 </Form>
